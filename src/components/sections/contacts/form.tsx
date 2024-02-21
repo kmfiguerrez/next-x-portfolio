@@ -31,8 +31,8 @@ import FormError from "./form-error"
 
 const ContactForm = () => {
   // Runtime messages.
-  const [success, setSuccess] = useState<string>("Message has been se")
-  const [error, setError] = useState<string>("Form Failed")
+  const [success, setSuccess] = useState<string>()
+  const [error, setError] = useState<string>()
 
 
   const form = useForm<formDataType>({
@@ -77,10 +77,9 @@ const ContactForm = () => {
     console.log(resData)
   }
 
-
+  // Confirmation message to dissapear in 4s.
   useEffect(() => {
     if (success) {                      
-      // Confirmation message to dissapear in 4s.
       setTimeout(() => {      
         setSuccess("")
       }, 10000)
