@@ -9,7 +9,7 @@ export default function Home() {
   return (
   <>
     <NavLinks />
-    <main className="container">
+    <main className="px-1 sm:container">
       <HomeSection />
       <AboutMeSection />
       <ProjectSection />
