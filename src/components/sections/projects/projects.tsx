@@ -2,9 +2,9 @@ import ThreadCard from "./thread-card"
 import ProjectCard from "./project-card"
 
 // Static Assets
-import apiPic from './../../../../public/images/api.png'
-import ipv4Logo from './../../../../public/logos/ipv4.svg'
-import ipv6Logo from './../../../../public/logos/ipv6.svg'
+// import apiPic from './../../../../public/images/api.png'
+// import ipv4Logo from './../../../../public/logos/ipv4.svg'
+// import ipv6Logo from './../../../../public/logos/ipv6.svg'
 
 
 
@@ -22,7 +22,7 @@ const ProjectSection = () => {
         
         <div>
           <ProjectCard
-            imgSrc={apiPic}
+            imgSrc={"/images/api.png"}
             imgAlt="A microservice picture."
             imgHeight={100}
             imgWidth={100}
@@ -35,7 +35,7 @@ const ProjectSection = () => {
 
         <div>
           <ProjectCard
-            imgSrc={ipv6Logo}
+            imgSrc={"/logos/ipv6.svg"}
             imgAlt="Ipv6 logo"
             imgHeight={130}
             imgWidth={130}
@@ -48,7 +48,7 @@ const ProjectSection = () => {
 
         <div>
           <ProjectCard            
-            imgSrc={ipv4Logo}
+            imgSrc={"/logos/ipv4.svg"}
             imgWidth={130}
             imgHeight={130}
             imgAlt="Ipv4 logo"
@@ -58,9 +58,10 @@ const ProjectSection = () => {
             dialog='ipv4'
           />
         </div>
-        <div>
+       
+        {/* <div>
           <ThreadCard />
-        </div>        
+        </div> */}
       </div>
 
     </section>

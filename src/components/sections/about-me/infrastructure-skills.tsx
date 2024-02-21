@@ -1,6 +1,6 @@
 import Image from "next/image"
-import vm from '../../../../public/logos/vm.svg'
-import docker from '../../../../public/logos/docker.svg'
+// import vm from '../../../../public/logos/vm.svg'
+// import docker from '../../../../public/logos/docker.svg'
 
 
 
@@ -11,7 +11,7 @@ const InfrastructureSkills = () => {
       
       <div className='flex items-center'>
         <Image 
-          src='/next-portfolio/icons/cisco-switch.svg'
+          src='/icons/cisco-switch.svg'
           alt='Cisco switch logo'
           height={23}
           width={23}
@@ -20,7 +20,7 @@ const InfrastructureSkills = () => {
       </div>
       <div className='flex items-center'>
         <Image 
-          src='/next-portfolio/icons/cisco-router.svg'
+          src='/icons/cisco-router.svg'
           alt='Cisco router logo'
           height={23}
           width={23}
@@ -29,7 +29,7 @@ const InfrastructureSkills = () => {
       </div>
       <div className='flex items-center'>
         <Image 
-          src='/next-portfolio/icons/cisco-wrouter.svg'
+          src='/icons/cisco-wrouter.svg'
           alt='Cisco wireless router logo'
           height={23}
           width={23}
@@ -38,7 +38,7 @@ const InfrastructureSkills = () => {
       </div>
       <div className='flex items-center'>
         <Image 
-          src='/next-portfolio/icons/cisco-accesspoint.svg'
+          src='/icons/cisco-accesspoint.svg'
           alt='Cisco accesspoint logo'
           height={23}
           width={23}
@@ -47,7 +47,7 @@ const InfrastructureSkills = () => {
       </div>
       {/* <div className='flex items-center'>
         <Image 
-          src='/next-portfolio/icons/cisco-fileserver.svg'
+          src='/icons/cisco-fileserver.svg'
           alt='Cisco fileserver logo'
           height={23}
           width={23}
@@ -56,7 +56,7 @@ const InfrastructureSkills = () => {
       </div>
       <div className='flex items-center'>
         <Image 
-          src='/next-portfolio/icons/cisco-fileserver.svg'
+          src='/icons/cisco-fileserver.svg'
           alt='Cisco fileserver logo'
           height={23}
           width={23}
@@ -65,7 +65,7 @@ const InfrastructureSkills = () => {
       </div> */}
       <div className='flex items-center'>
         <Image 
-          src='/next-portfolio/icons/windows-os.svg'
+          src='/icons/windows-os.svg'
           alt='Windows OS logo'
           height={23}
           width={23}
@@ -74,7 +74,7 @@ const InfrastructureSkills = () => {
       </div>
       <div className='flex items-center'>
         <Image 
-          src='/next-portfolio/icons/linux-os.svg'
+          src='/icons/linux-os.svg'
           alt='Windows OS logo'
           height={23}
           width={23}
@@ -83,7 +83,7 @@ const InfrastructureSkills = () => {
       </div>
       <div className='flex items-center'>
         <Image 
-          src='/next-portfolio/icons/powershell.svg'
+          src='/icons/powershell.svg'
           alt='Powershell logo'
           height={23}
           width={23}
@@ -92,7 +92,7 @@ const InfrastructureSkills = () => {
       </div>
       <div className='flex items-center'>
         <Image 
-          src='/next-portfolio/icons/bash.svg'
+          src='/icons/bash.svg'
           alt='BASH logo'
           height={23}
           width={23}
@@ -101,7 +101,7 @@ const InfrastructureSkills = () => {
       </div>
       <div className='flex items-center'>
         <Image 
-          src={vm}
+          src={"/logos/vm.svg"}
           alt='BASH logo'
           height={23}
           width={23}
@@ -110,7 +110,7 @@ const InfrastructureSkills = () => {
       </div>
       <div className='flex items-center'>
         <Image 
-          src={docker}
+          src={"logos/docker.svg"}
           alt='BASH logo'
           height={25}
           width={25}
@@ -119,7 +119,7 @@ const InfrastructureSkills = () => {
       </div>
       <div className='flex items-center'>
         <Image 
-          src='/next-portfolio/icons/networking.svg'
+          src='/icons/networking.svg'
           alt='Network logo'
           height={23}
           width={23}
@@ -128,7 +128,7 @@ const InfrastructureSkills = () => {
       </div>
       <div className='flex items-center'>
         <Image 
-          src='/next-portfolio/icons/networking.svg'
+          src='/icons/networking.svg'
           alt='Network logo'
           height={23}
           width={23}

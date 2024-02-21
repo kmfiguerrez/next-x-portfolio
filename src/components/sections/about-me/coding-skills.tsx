@@ -1,8 +1,8 @@
 import Image from "next/image"
 // Images route.
-import framerMotion from '../../../../public/logos/framer-motion.png'
-import nest from '../../../../public/logos/nest.svg'
-import shadcn from '../../../../public/logos/shadcn-ui.png'
+// import framerMotion from '../../../../public/logos/framer-motion.png'
+// import nest from '../../../../public/logos/nest.svg'
+// import shadcn from '../../../../public/logos/shadcn-ui.png'
 
 
 const CodingSKills = () => {
@@ -12,7 +12,7 @@ const CodingSKills = () => {
       
       <div className='flex items-center'>
         <Image 
-          src='/next-portfolio/logos/html5.svg'
+          src='/logos/html5.svg'
           alt='HTML 5 Logo'
           height={23}
           width={23}
@@ -21,7 +21,7 @@ const CodingSKills = () => {
       </div>
       <div className='flex items-center'>
         <Image 
-          src='/next-portfolio/logos/css.svg'
+          src='/logos/css.svg'
           alt='CSS 3 Logo'
           height={23}
            width={23}
@@ -30,7 +30,7 @@ const CodingSKills = () => {
       </div>    
       <div className='flex items-center'>
         <Image 
-          src='/next-portfolio/logos/sass.svg'
+          src='/logos/sass.svg'
           alt='SASS Logo'
           height={28}
           width={28}            
@@ -39,7 +39,7 @@ const CodingSKills = () => {
       </div>
       <div className='flex items-center'>
         <Image 
-          src='/next-portfolio/logos/bootstrap.svg'
+          src='/logos/bootstrap.svg'
           alt='Bootstrap Logo'
           height={30}
           width={30}
@@ -48,7 +48,7 @@ const CodingSKills = () => {
       </div>        
       <div className='flex items-center'>
         <Image 
-          src='/next-portfolio/logos/tailwind.svg'
+          src='/logos/tailwind.svg'
           alt='Tailwind Logo'
           height={28}
           width={28}            
@@ -57,7 +57,7 @@ const CodingSKills = () => {
       </div> 
       <div className='flex items-center'>
         <Image 
-          src={framerMotion}
+          src={"/logos/framer-motion.png"}
           alt='Framer Motion Logo'
           height={27}
           width={27}            
@@ -66,7 +66,7 @@ const CodingSKills = () => {
       </div> 
       <div className='flex items-center'>
         <Image 
-          src='/next-portfolio/logos/javascript.svg'
+          src='/logos/javascript.svg'
           alt='Javascript Logo'
           height={25}
           width={25}
@@ -75,7 +75,7 @@ const CodingSKills = () => {
       </div>
       <div className='flex items-center'>
         <Image 
-          src='/next-portfolio/logos/typescript.svg'
+          src='/logos/typescript.svg'
           alt='Typescript Logo'
           height={25}
           width={25}
@@ -84,7 +84,7 @@ const CodingSKills = () => {
       </div>        
       <div className='flex items-center'>
         <Image 
-          src='/next-portfolio/logos/react.svg'
+          src='/logos/react.svg'
           alt='React Logo'
           height={25}
           width={25}
@@ -93,7 +93,7 @@ const CodingSKills = () => {
       </div>
       <div className='flex items-center'>
         <Image 
-          src='/next-portfolio/logos/next.svg'
+          src='/logos/next.svg'
           alt='Next.js Logo'
           height={25}
           width={25}
@@ -102,7 +102,7 @@ const CodingSKills = () => {
       </div>
       <div className='flex items-center'>
         <Image 
-          src='/next-portfolio/logos/zod.svg'
+          src='/logos/zod.svg'
           alt='Zod Logo'
           height={25}
           width={25}
@@ -111,7 +111,7 @@ const CodingSKills = () => {
       </div>
       <div className='flex items-center'>
         <Image 
-          src={shadcn}
+          src={"/logos/shadcn-ui.png"}
           alt='Shadcn UI Logo'
           height={25}
           width={25}
@@ -121,7 +121,7 @@ const CodingSKills = () => {
       </div>                           
       <div className='flex items-center'>
         <Image 
-          src='/next-portfolio/logos/express.svg'
+          src='/logos/express.svg'
           alt='Express.js Logo'
           height={25}
           width={25}
@@ -130,7 +130,7 @@ const CodingSKills = () => {
       </div>
       <div className='flex items-center'>
         <Image 
-          src={nest}
+          src={"/logos/nest.svg"}
           alt='Nest.js Logo'
           height={25}
           width={25}
@@ -139,7 +139,7 @@ const CodingSKills = () => {
       </div>         
       <div className='flex items-center'>
         <Image 
-          src='/next-portfolio/logos/node.svg'
+          src='/logos/node.svg'
           alt='Node.js Logo'
           height={28}
           width={28}
@@ -148,7 +148,7 @@ const CodingSKills = () => {
       </div>
       <div className='flex items-center'>
         <Image 
-          src='/next-portfolio/logos/mongodb.svg'
+          src='/logos/mongodb.svg'
           alt='MongoDB Logo'
           height={28}
           width={28}
@@ -157,7 +157,7 @@ const CodingSKills = () => {
       </div>
       {/* <div className='flex items-center'>
         <Image 
-          src='/next-portfolio/logos/vite.svg'
+          src='/logos/vite.svg'
           alt='Vite Logo'
           height={28}
           width={28}
@@ -166,7 +166,7 @@ const CodingSKills = () => {
       </div> */}
       <div className='flex items-center'>
         <Image 
-          src='/next-portfolio/logos/git.svg'
+          src='/logos/git.svg'
           alt='Git Logo'
           height={28}
           width={28}
@@ -175,7 +175,7 @@ const CodingSKills = () => {
       </div>
       <div className='flex items-center'>
         <Image 
-          src='/next-portfolio/logos/github.svg'
+          src='/logos/github.svg'
           alt='Git Logo'
           height={28}
           width={28}

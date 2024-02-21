@@ -22,7 +22,7 @@ const ContactSection = () => {
 
           <div className="relative h-[300px]  sm:w-[380px] sm:mx-auto mb-4">
             <Image 
-              src='/next-portfolio/images/socials.svg'
+              src='/images/socials.svg'
               alt="Socials Image"
               fill              
             />

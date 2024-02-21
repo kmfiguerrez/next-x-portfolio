@@ -111,7 +111,7 @@ export function MicroservicesPopover() {
         <h5 className='font-semibold mb-4 underline underline-offset-4 decoration-sky-500 decoration-2'>
           Code for?
         </h5>
-        <ul className='list-inside list-image-[url("/next-portfolio/icons/code.svg")]'>
+        <ul className='list-inside list-image-[url("/icons/code.svg")]'>
 
           <li className='max-sm:mb-2 mb-1 border-b text-black/80 hover:text-amber-400'>
             <a href="https://replit.com/@kmfiguerrez1/fcc-project-timestamp" target='_blank'>

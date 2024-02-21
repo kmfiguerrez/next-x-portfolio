@@ -29,7 +29,7 @@ const AboutMeSection = () => {
         <div className="flex flex-col md:flex-row md:justify-between">
           <div className='mb-8'>
             <WiwoCard 
-              imgSrc='/next-portfolio/images/web-dev.jpg'
+              imgSrc='/images/web-dev.jpg'
               imgAlt='Web Development Logo'
               title='Web Development'
               description='#coding'
@@ -38,7 +38,7 @@ const AboutMeSection = () => {
           </div>
           <div className='md:basis-1/2'>
             <WiwoCard 
-              imgSrc={'/next-portfolio/images/it-cert.jpg'}
+              imgSrc={'/images/it-cert.jpg'}
               imgAlt='IT cert logo'
               title='IT Certifications'
               description='#infrastructure #coding'
@@ -67,7 +67,7 @@ const AboutMeSection = () => {
               <CertCard 
                 title='Google IT Support'
                 description='Google'
-                imgSrc='/next-portfolio/logos/google.svg'
+                imgSrc='/logos/google.svg'
                 h={50}
                 w={50}
               />

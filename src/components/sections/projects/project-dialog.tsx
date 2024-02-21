@@ -32,7 +32,7 @@ const ProjectDialog = ({ className, title, codeLink, demoLink, children }: ProjD
 
       <DialogTrigger>
         <Image 
-           src='/next-portfolio/icons/plus-circle.svg'
+           src='/icons/plus-circle.svg'
            alt='Plus-Circle icon'
            height={30}
            width={30}
@@ -52,7 +52,7 @@ const ProjectDialog = ({ className, title, codeLink, demoLink, children }: ProjD
           {/* Code link */}
           <div className='flex space-x-2'>
             <Image 
-              src='/next-portfolio/icons/code.svg'
+              src='/icons/code.svg'
               alt='A code icon'
               height={25}
               width={25}
@@ -76,7 +76,7 @@ const ProjectDialog = ({ className, title, codeLink, demoLink, children }: ProjD
           {/* Demo link */}
           <div className='flex space-x-2'>
             <Image 
-              src='/next-portfolio/icons/demo.svg'
+              src='/icons/demo.svg'
               alt='A demo icon'
               height={25}
               width={25}
