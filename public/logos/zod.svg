@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 800 645" enable-background="new 0 0 800 645" xml:space="preserve">
+<filter  filterUnits="objectBoundingBox" height="106.5%" id="filter-2" width="105.2%" x="-2.2%" y="-2.8%">
+	<feOffset  dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+	<feGaussianBlur  in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"></feGaussianBlur>
+	<feColorMatrix  in="shadowBlurOuter1" type="matrix" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.36 0"></feColorMatrix>
+</filter>
+<g transform="translate(2.000000, 1.510645)">
+	<polygon fill="#18253F" points="184.7,45.3 617.3,45.3 744.1,177.7 385.4,579.4 51.8,177.7 	"/>
+	<polygon fill="#274D82" points="472.4,484.5 302.8,484.5 226.2,390.8 443.2,390.8 443.3,377.5 567.3,377.5 	"/>
+	<polygon fill="#274D82" points="707.7,139.9 239.8,410.1 178.8,333.7 541,124.6 534.4,113 630.8,57.3 	"/>
+	<polygon fill="#274D82" points="457,45.4 105.7,248.3 51.1,180.1 286.3,44.3 	"/>
+	<g>
+		<g filter="url(#filter-2)">
+			<path id="path-1_2_" d="M634.3,5.6h-466L-2,174.9l386.5,465.5l30.8-34.6L798,176.5L634.3,5.6z M617.2,45.4l126.5,132.1
+				L385.6,579.3L52,177.5L184.7,45.4H617.2z"/>
+		</g>
+		<g>
+			<path id="path-1_1_" fill="#3068B7" d="M634.3,5.6h-466L-2,174.9l386.5,465.5l30.8-34.6L798,176.5L634.3,5.6z M617.2,45.4
+				l126.5,132.1L385.6,579.3L52,177.5L184.7,45.4H617.2z"/>
+		</g>
+	</g>
+</g>
+</svg>

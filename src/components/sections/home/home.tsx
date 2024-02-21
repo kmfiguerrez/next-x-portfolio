@@ -1,5 +1,7 @@
 import DisappearingText from "@/components/sections/home/disappearing-text.tsx";
+import { Button } from "@/components/ui/button";
 import Link from 'next/link'
+
 
 const HomeSection = () => {
   return (
@@ -26,6 +28,7 @@ const HomeSection = () => {
             Hi, I'm
           </Link>
         </div>
+
         {/* Name. */}
         <p className="
               text-3xl
