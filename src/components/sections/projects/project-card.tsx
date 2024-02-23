@@ -32,7 +32,7 @@ const ProjectCard = ({imgSrc, imgAlt, imgWidth, imgHeight, title, description, a
 
   return (
     <Card 
-      className='max-md:mx-auto sm:w-[320px]' 
+      className='max-md:mx-auto w-[320px]' 
       onMouseEnter={() => setIsHover(true)} 
       onMouseLeave={() => setIsHover(false)}      
       >
