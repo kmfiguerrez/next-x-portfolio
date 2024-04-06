@@ -4,7 +4,7 @@ const IPv6DialogContent = () => {
   return (
     <div className="py-4 px-1 text-black h-[350px] max-h-[400px] overflow-y-scroll">
 
-      <h5 className="font-semibold mb-2">ABOUT</h5>
+      <h5 className="font-semibold mb-2 underline underline-offset-4 decoration-sky-500 decoration-2">DESCRIPTION</h5>
       <p>
         IPv6 Address subnetting is the process of splitting a network into smaller networks known as Subnets.
         This project is a web app and can be used by anyone whether they're learning or practicing subnetting
@@ -21,7 +21,7 @@ const IPv6DialogContent = () => {
         <strong>Note:</strong> This app is on a free hosting plan so access to this app is limited.
       </p>
       <br />
-      <h5 className="font-semibold mb-2">CHALLENGES I FACED</h5>
+      {/* <h5 className="font-semibold mb-2">CHALLENGES I FACED</h5>
       <ul className="list-outside list-disc ps-4">
         <li className='mb-1'>
           IPv6 works with a very large number that is outside Javascript max safe integers.
@@ -42,17 +42,21 @@ const IPv6DialogContent = () => {
           for calculating prefixes (subnets). I also used Functional Programming to make each custom
           algorithm a function so that they will be resuable and easier to read.
         </li>
-      </ul>
-      <br />
-      <h5 className="font-semibold mb-2">TECH USED</h5>
+      </ul> */}
+      {/* <br /> */}
+      <h5 className="font-semibold mb-2 underline underline-offset-4 decoration-sky-500 decoration-2">TECH USED</h5>
       <ul className="list-inside list-disc ps-4">
         <li>HTML</li>
-        <li>SASS</li>
-        <li>Bootstrap 5</li>
+        <li>Tailwind CSS</li>
+        <li>Gsap</li>
+        <li>Shadcn UI</li>
         <li>Typescript</li>
+        <li>React.js</li>
+        <li>Next.js</li>
+
       </ul>
       <br />
-      <h5 className="font-semibold mb-2">FEATURES</h5>
+      <h5 className="font-semibold mb-2 underline underline-offset-4 decoration-sky-500 decoration-2">FEATURES</h5>
       <ul className="list-inside list-disc ps-4">
         <li>Conversions</li>
         <li>Validations</li>

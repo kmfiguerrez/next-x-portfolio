@@ -3,7 +3,7 @@
 const Ipv4DialogContent = () => {
   return (
     <div className="py-4 px-1 text-black h-[350px] max-h-[400px] overflow-y-scroll">
-      <h5 className="font-semibold mb-2">ABOUT</h5>
+      <h5 className="font-semibold mb-2 underline underline-offset-4 decoration-sky-500 decoration-2">DESCRIPTION</h5>
       <p>
         IPv4 Address subnetting is the process of splitting a network into smaller networks known as Subnets.
         This project is a web app and can be used by anyone whether they're learning or practicing subnetting
@@ -20,7 +20,7 @@ const Ipv4DialogContent = () => {
         <strong>Note:</strong> This app is on a free hosting plan so access to this app is limited.
       </p>
       <br />
-      <h5 className="font-semibold mb-2">TECH USED</h5>
+      <h5 className="font-semibold mb-2 underline underline-offset-4 decoration-sky-500 decoration-2">TECH USED</h5>
       <ul className="list-inside list-disc ps-4">
         <li>HTML</li>
         <li>SASS</li>
@@ -28,7 +28,7 @@ const Ipv4DialogContent = () => {
         <li>Vanilla Javascript</li>
       </ul>
       <br />
-      <h5 className="font-semibold mb-2">FEATURES</h5>
+      <h5 className="font-semibold mb-2 underline underline-offset-4 decoration-sky-500 decoration-2">FEATURES</h5>
       <ul className="list-inside list-disc ps-4">
         <li>Conversions</li>
         <li>Validations</li>

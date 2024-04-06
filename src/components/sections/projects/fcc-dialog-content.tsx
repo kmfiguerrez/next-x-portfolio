@@ -13,7 +13,7 @@ const FCCDialogContent = () => {
     <div className="py-4 px-1 text-black h-[350px] max-h-[400px] overflow-y-scroll">
       <section>
         <h5 className="font-semibold mb-2 underline underline-offset-4 decoration-sky-500 decoration-2">
-          ABOUT
+          DESCRIPTION
         </h5>
         <p>
           A <span className="font-semibold">microservice</span> is a small, independent, and modular component within a software architecture 

@@ -70,7 +70,7 @@ const ProjectCard = ({imgSrc, imgAlt, imgWidth, imgHeight, title, description, a
             <ProjectDialog 
               className={`${isHover ? 'transition delay-75 scale-150 animate-pulse' : ''}`}
               title='IPV6 SUBNETTING'
-              codeLink='https://github.com/kmfiguerrez/IPv6-Subnetting'
+              codeLink='https://github.com/kmfiguerrez/next-ipv6/'
               demoLink='https://ipv6subnetting.netlify.app/'              
             >
               <IPv6DialogContent />
